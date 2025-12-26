@@ -60,44 +60,27 @@ The dataset also includes fields such as town name, longitude, latitude, and cen
 
 To better understand our dataset, we undertake univariate and bivariate analyses, visualising distributions and relationships between variables.
 
-// crim
-#image("assets/image-1.png")
+#table(
+  columns: 3,
+  stroke: 0.5pt,
+  align: (center, center, center),
+  [#image("assets/image-1.png")], [#image("assets/image-2.png")], [#image("assets/image-3.png")],
+  [#image("assets/image-4.png")], [#image("assets/image-5.png")], [#image("assets/image-6.png")],
+  [#image("assets/image-7.png")], [#image("assets/image-8.png")], [#image("assets/image-9.png")],
+  [#image("assets/image-10.png")], [#image("assets/image-11.png")], [#image("assets/image.png")],
+)
 
-// zn
-#image("assets/image-2.png")
+#table(
+  columns: 2,
+  stroke: 0.5pt,
+  align: (center, center),
+  table.header([*Visualization*], [*Description*]),
+  [#image("assets/image-12.png")], [Properties by Charles River proximity],
+  [#image("assets/image-13.png")], [Correlation heatmap],
+  [#image("assets/image-14.png")], [Key relationships with target variable (CMEDV)],
+  [#image("assets/image-15.png")], [Effect of Charles River proximity on CMEDV],
+  [#image("assets/image-16.png")], [Housing prices by crime level],
+)
 
-// indus
-#image("assets/image-3.png")
-
-// nox
-#image("assets/image-4.png")
-
-
-// rm
-#image("assets/image-5.png")
-
-// age
-#image("assets/image-6.png")
-
-// dis
-#image("assets/image-7.png")
-
-// tax
-#image("assets/image-8.png")
-
-// ptratio
-#image("assets/image-9.png")
-
-// B
-#image("assets/image-10.png")
-
-// lstat
-#image("assets/image-11.png")
-
-// cmedv
-#image("assets/image.png")
-
-
-// properties by charles river proximity
-#image("assets/image-12.png")
+= Geospatial Analysis
 
